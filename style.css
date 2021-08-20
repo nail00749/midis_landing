@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 html {
@@ -12,8 +13,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*max-width: 1200px;*/
-    padding: 0px 32px;
+    max-width: 100%;
 }
 
 .header {
@@ -22,18 +22,14 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-}
-
-.header_1 {
-    height: 144px;
+    min-width: 100%;
+    padding: 10px 20px
 }
 
 .header_title {
     color: white;
-    font-size: 48px;
+    font-size: calc(1vw + 0.8em);
     font-weight: 900;
-    margin: 42px 0px;
     text-transform: uppercase;
 }
 
@@ -59,7 +55,7 @@ html {
 }
 
 .img_welcome {
-    width: 461px;
+    max-width: 50%;
     height: 515px;
 }
 
