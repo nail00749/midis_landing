@@ -1,9 +1,12 @@
-/*@media screen and (min-width:320px) {
+@media screen and (min-width:320px) {
     .header {
         min-width: 320px;
     }
+    .button_anchor {
+        width: 100%;
+    }
 }
-
+/*
 @media screen and (min-width:375px) {
     .header {
         min-width: 375px;
@@ -20,12 +23,16 @@
     .header {
         min-width: 768px;
     }
-}
+}*/
 
 @media screen and (min-width:1024px) {
-    .header {
-        min-width: 1024px;
+    .how_start_frame {
+        flex: 0 0 49%;
     }
+    .button_anchor {
+        width: 30%;
+    }
+
 }
 
 @media screen and (min-width:1440px) {
@@ -38,5 +45,5 @@
     .header {
         min-width: 2560px;
     }
-}*/
+}
 

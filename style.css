@@ -23,19 +23,20 @@ html {
     justify-content: center;
     align-items: center;
     min-width: 100%;
-    padding: 10px 20px
+    padding: 10px 20px;
+    margin-bottom: 10px;
 }
 
 .header_title {
     color: white;
-    font-size: calc(1vw + 0.8em);
+    font-size: calc(1vw + 1em);
     font-weight: 900;
     text-transform: uppercase;
 }
 
 .header_subtitle {
     font-family: Open Sans;
-    font-size: 18px;
+    font-size: calc(1vw + 0.6em);
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
@@ -49,9 +50,14 @@ html {
     flex-direction: row;
 }
 
+.img {
+    width: 100%;
+}
+
 .welcome {
     justify-content: center;
     align-items: center;
+    padding: 0px 0px;
 }
 
 .img_welcome {
@@ -59,44 +65,68 @@ html {
     height: 515px;
 }
 
+.welcomeBox {
+    position: relative;
+    max-width: 50%;
+}
+
+.welcomeRect {
+    z-index: -1;
+}
+
 .welcomeText {
-    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    max-width: 80%;
+    font-size: calc(1vw + 0.4em);
     font-weight: 400;
     text-align: center;
+    z-index: 10;
 }
 
 .button_anchor {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     border: 2px solid black;
     border-radius: 20px;
-    padding: 15px 25px 15px 29px;
-    margin: 0px 0px 16px 16px;
+    padding: 15px 30px 15px 29px;
+    margin: 8px;
+    width: 100%;
+}
+/*todo*/
+.button_anchor.nthChild(4) {
+
 }
 
 .button_anchor_text {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
+    font-size: calc(1vw + 0.4em);
     line-height: 29px;
     text-transform: uppercase;
     letter-spacing: 0em;
     text-align: left;
-    margin-right: 30px;
+
+}
+
+.imgStart {
+
 }
 
 .anchor_container__modify {
     margin-top: 40px;
     flex-wrap: wrap;
-    flex: 0 0 33.333%;
+    flex: 0 0 30.333%;
     justify-content: center;
 }
 
 .how_start {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -105,43 +135,42 @@ html {
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
-    min-height: 400px;
     margin-left: 16px;
     margin-bottom: 23px;
 
 }
 
 .frame_full {
-    flex: 0 0 100%;
+    flex: 0 0 95%;
     border: 2px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
-
     margin-left: 16px;
     margin-bottom: 23px;
 }
 
 .how_start_title {
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: calc(1vw + 0.8em);
     font-style: normal;
     font-weight: 800;
     line-height: 37px;
     letter-spacing: 0em;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 5%;
     margin-top: 23px;
 }
 
 .how_start_subtitle {
     font-family: Open Sans;
-    font-size: 18px;
+    font-size: calc(1vw + 0.6em);
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    margin-left: 40px;
+    margin-left: 5%;
+    margin-bottom: 20%;
 }
 
 .img_frame {
