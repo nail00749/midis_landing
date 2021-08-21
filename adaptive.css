@@ -21,20 +21,31 @@
 
     .welcomeText {
         left: 15%;
-        font-size: calc(1vw + 0.4em);
+        font-size: calc(1vw + 0.25em);
+    }
+
+    .anchor_container__modify {
+        padding: 20px 10px;
+    }
+
+    .img_frame {
+        margin: 35px 20px;
+        padding: 20px 0px 50px 0px;
     }
 }
 
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
     .welcomeText {
-        font-size: calc(1vw + 0.4em);
+        font-size: calc(1vw + 0.2em);
     }
+
 }
 
 @media screen and (min-width:1024px) {
     .how_start  {
         justify-content: space-between;
+        padding: 0 100px;
     }
 
     .how_start_frame {
@@ -50,6 +61,7 @@
 
     .welcomeRect {
         display: block;
+
     }
 
     .welcomeContainer {
@@ -57,18 +69,27 @@
     }
 
     .welcomeText {
-        left: 30%;
+        left: 20%;
+        font-size: calc(1vw + 0.45em);
+    }
+
+    .img_frame {
+        margin: 35px 50px;
+        padding: 20px 0px 50px 0px;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .welcomeText {
+        left: 20%;
         font-size: calc(1vw + 0.3em);
     }
 }
 
-@media screen and (min-width:1440px) {
-
-}
-
 @media screen and (min-width:2560px) {
     .welcomeText {
-        font-size: calc(0.8vw + 0.1em);
+        font-size: calc(0.7vw + 0.1em);
     }
 }
 
