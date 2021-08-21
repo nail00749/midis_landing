@@ -54,6 +54,11 @@ html {
     width: 100%;
 }
 
+.welcomeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
 .welcome {
     justify-content: center;
     align-items: center;
@@ -62,7 +67,6 @@ html {
 
 .img_welcome {
     max-width: 50%;
-    height: 515px;
 }
 
 .welcomeBox {
@@ -74,12 +78,17 @@ html {
     z-index: -1;
 }
 
+.welcomeRectMobile {
+    display: none;
+    max-width: 120%;
+}
+
 .welcomeText {
     position: absolute;
-    top: 10px;
-    left: 115px;
+    top: 5%;
+    left: 30%;
     max-width: 80%;
-    font-size: calc(1vw + 0.4em);
+    font-size: calc(1vw + 0.3em);
     font-weight: 400;
     text-align: center;
     z-index: 10;
@@ -94,10 +103,6 @@ html {
     padding: 15px 30px 15px 29px;
     margin: 8px;
     width: 100%;
-}
-/*todo*/
-.button_anchor.nthChild(4) {
-
 }
 
 .button_anchor_text {
@@ -120,15 +125,18 @@ html {
     margin-top: 40px;
     flex-wrap: wrap;
     flex: 0 0 30.333%;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .how_start {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px 10px;
 }
+
+
 
 .how_start_frame {
     flex: 0 0 49%;
@@ -137,6 +145,9 @@ html {
     border-radius: 20px;
     margin-left: 16px;
     margin-bottom: 23px;
+}
+
+.how_start_frame:nth-child(5) {
 
 }
 
