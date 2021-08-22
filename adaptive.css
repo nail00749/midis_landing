@@ -28,9 +28,64 @@
         padding: 20px 10px;
     }
 
-    .img_frame {
-        margin: 35px 20px;
-        padding: 20px 0px 50px 0px;
+
+
+    .img {
+        width: 250%;
+    }
+
+    .endRect {
+        display: none;
+    }
+
+    .endRectMobile {
+        display: block;
+    }
+
+    .endImg {
+        max-width: 100%;
+        margin: 0px 10px;
+    }
+
+    .endBox {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .endText {
+        left: 10%;
+        font-size: calc(1vw + 0.3em);
+    }
+}
+
+@media screen and (min-width:375px) {
+    .how_start  {
+        justify-content: center;
+    }
+
+    .how_start_frame {
+        flex: 0 0 90%;
+    }
+
+    .welcomeRectMobile {
+        display: block;
+    }
+
+    .welcomeRect {
+        display: none;
+    }
+
+    .welcomeContainer {
+        flex-direction: column-reverse;
+    }
+
+    .welcomeText {
+        left: 15%;
+        font-size: calc(1vw + 0.31em);
+    }
+
+    .anchor_container__modify {
+        padding: 20px 10px;
     }
 
     .img {
@@ -62,9 +117,70 @@
 }
 
 
+@media screen and (min-width:425px) {
+    .how_start  {
+        justify-content: center;
+    }
+
+    .header_title {
+
+    }
+
+    .how_start_frame {
+        flex: 0 0 90%;
+    }
+
+    .welcomeRectMobile {
+        display: block;
+    }
+
+    .welcomeRect {
+        display: none;
+    }
+
+    .welcomeContainer {
+        flex-direction: column-reverse;
+    }
+
+    .welcomeText {
+        font-size: calc(1vw + 0.34em);
+    }
+
+    .anchor_container__modify {
+        padding: 20px 10px;
+    }
+
+    .img {
+        width: 150%;
+    }
+
+    .endRect {
+        display: none;
+    }
+
+    .endRectMobile {
+        display: block;
+    }
+
+    .endImg {
+        max-width: 100%;
+        margin: 0px 10px;
+    }
+
+    .endBox {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .endText {
+        left: 10%;
+        font-size: calc(1vw + 0.3em);
+    }
+}
+
 @media screen and (min-width:768px) {
     .welcomeText {
-        font-size: calc(1vw + 0.2em);
+        font-size: calc(1vw + 0.18em);
     }
 
     .img {
@@ -109,12 +225,7 @@
 
     .welcomeText {
         left: 20%;
-        font-size: calc(0.7vw + 0.2em);
-    }
-
-    .img_frame {
-        margin: 35px 50px;
-        padding: 20px 0px 50px 0px;
+        font-size: calc(0.7vw + 0.7em);
     }
 
     .endRect {

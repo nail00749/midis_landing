@@ -2,12 +2,19 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
     font-family: Montserrat;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 .container {
@@ -34,7 +41,7 @@ html {
     font-size: calc(1vw + 1em);
     font-weight: 900;
     text-transform: uppercase;
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
 
 }
 
@@ -103,7 +110,7 @@ html {
     max-width: 80%;
     font-size: calc(1vw + 0.1em);
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     z-index: 10;
 }
 
@@ -191,9 +198,8 @@ html {
 .img_frame {
     display: flex;
     justify-content: center;
-    background-color: rgba(196, 196, 196, 1);
-    padding: 38px 35px 110px 38px;
-    margin: 35px 20px;
+    padding: 0px 20px;
+    margin: 20px 0px;
 }
 
 .img_with_frame {
@@ -201,7 +207,7 @@ html {
     max-width: 100%;
 }
 
-.name {
+.name a {
     color: orange;
 }
 
