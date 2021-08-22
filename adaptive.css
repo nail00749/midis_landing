@@ -324,6 +324,10 @@
         font-size: calc(1vw + .05em);
         line-height: 18px;
     }
+
+    .endBlock{
+        width: 75%;
+    }
 }
 
 @media screen and (min-width:2560px) {
