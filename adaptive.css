@@ -52,8 +52,8 @@
     }
 
     .endText {
-        left: 10%;
-        font-size: calc(1vw + 0.3em);
+        font-size: calc(1vw + 0.4em);
+        lineheight: 8px;
     }
 
     .blockText {
@@ -188,9 +188,13 @@
         padding: 10px;
     }
 
+    .endBlock {
+        width: 100%;
+    }
+
     .endText {
-        left: 10%;
-        font-size: calc(1vw + 0.3em);
+        font-size: calc(1vw + 0.7em);
+        line-height: 18px;
     }
 
     .blockText {
