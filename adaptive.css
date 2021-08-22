@@ -56,14 +56,12 @@
         lineheight: 8px;
     }
 
-    .blockText {
-        width: 130%;
+    .welcomeBox {
+        max-width: 100%;
     }
 
-    .blockText p {
-        font-size: calc(1vw + .4em);
-        line-height: 13px;
-    }
+
+
 }
 
 @media screen and (min-width:375px) {
@@ -97,7 +95,7 @@
     }
 
     .img {
-        width: 250%;
+        width: 200%;
     }
 
     .endRect {
@@ -123,13 +121,6 @@
         font-size: calc(1vw + 0.3em);
     }
 
-    .blockText {
-        width: 130%;
-    }
-
-    .blockText p {
-        font-size: calc(1vw + .6em)
-    }
 }
 
 
@@ -197,14 +188,7 @@
         line-height: 18px;
     }
 
-    .blockText {
-        width: 130%;
-    }
 
-    .blockText p {
-        font-size: calc(1vw + .5em);
-        line-height: 16px;
-    }
 
 
 
@@ -224,14 +208,7 @@
         font-size: calc(1vw + 0.15em);
     }
 
-    .blockText {
-        width: 130%;
-    }
 
-    .blockText p {
-        font-size: calc(1vw + .5em);
-        line-height: 17px;
-    }
 
 }
 
@@ -252,6 +229,9 @@
         padding: 20px 150px;
     }
 
+    .welcomeBox {
+        max-width: 100%;
+    }
     .welcomeRectMobile {
         display: none;
     }
@@ -293,16 +273,7 @@
         font-size: calc(1vw + 0.15em);
     }
 
-    .blockText {
-        top: 5%;
-        margin-left: 25px;
-        width: 70%;
-    }
 
-    .blockText p {
-        font-size: calc(1vw + .3em);
-        line-height: 22px;
-    }
 }
 
 
@@ -314,16 +285,9 @@
         font-size: calc(.9vw + 0.2em);
     }
 
-    .blockText {
-        top: 7%;
-        margin-left: 25px;
-        width: 70%;
-    }
 
-    .blockText p {
-        font-size: calc(1vw + .05em);
-        line-height: 18px;
-    }
+
+
 
     .endBlock{
         width: 75%;
@@ -340,17 +304,5 @@
         font-size: calc(.7vw + 0.1em);
     }
 
-
-
-    .blockText {
-        top: 7%;
-        margin-left: 25px;
-        width: 70%;
-    }
-
-    .blockText p {
-        font-size: calc(0.5vw + .1em);
-        line-height: 20px;
-    }
 }
 
