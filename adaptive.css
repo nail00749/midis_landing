@@ -9,6 +9,7 @@
 
     .welcomeRectMobile {
         display: block;
+        width: 140%;
     }
 
     .welcomeRect {
@@ -27,8 +28,6 @@
     .anchor_container__modify {
         padding: 20px 10px;
     }
-
-
 
     .img {
         width: 250%;
@@ -55,6 +54,15 @@
     .endText {
         left: 10%;
         font-size: calc(1vw + 0.3em);
+    }
+
+    .blockText {
+        width: 130%;
+    }
+
+    .blockText p {
+        font-size: calc(1vw + .4em);
+        line-height: 13px;
     }
 }
 
@@ -113,6 +121,14 @@
     .endText {
         left: 10%;
         font-size: calc(1vw + 0.3em);
+    }
+
+    .blockText {
+        width: 130%;
+    }
+
+    .blockText p {
+        font-size: calc(1vw + .6em)
     }
 }
 
@@ -176,6 +192,18 @@
         left: 10%;
         font-size: calc(1vw + 0.3em);
     }
+
+    .blockText {
+        width: 130%;
+    }
+
+    .blockText p {
+        font-size: calc(1vw + .5em);
+        line-height: 16px;
+    }
+
+
+
 }
 
 @media screen and (min-width:768px) {
@@ -191,6 +219,16 @@
         left: 10%;
         font-size: calc(1vw + 0.15em);
     }
+
+    .blockText {
+        width: 130%;
+    }
+
+    .blockText p {
+        font-size: calc(1vw + .5em);
+        line-height: 17px;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -216,7 +254,7 @@
 
     .welcomeRect {
         display: block;
-
+        margin-left: -68px;
     }
 
     .welcomeContainer {
@@ -250,12 +288,37 @@
         left: 5%;
         font-size: calc(1vw + 0.15em);
     }
+
+    .blockText {
+        top: 5%;
+        margin-left: 25px;
+        width: 70%;
+    }
+
+    .blockText p {
+        font-size: calc(1vw + .3em);
+        line-height: 22px;
+    }
 }
+
+
+
 
 @media screen and (min-width:1440px) {
     .welcomeText {
         left: 20%;
         font-size: calc(.9vw + 0.2em);
+    }
+
+    .blockText {
+        top: 7%;
+        margin-left: 25px;
+        width: 70%;
+    }
+
+    .blockText p {
+        font-size: calc(1vw + .05em);
+        line-height: 18px;
     }
 }
 
@@ -267,6 +330,19 @@
     .endText {
         left: 10%;
         font-size: calc(.7vw + 0.1em);
+    }
+
+
+
+    .blockText {
+        top: 7%;
+        margin-left: 25px;
+        width: 70%;
+    }
+
+    .blockText p {
+        font-size: calc(0.5vw + .1em);
+        line-height: 20px;
     }
 }
 
