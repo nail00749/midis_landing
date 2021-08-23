@@ -38,7 +38,7 @@ a:visited {
 
 .header_title {
     color: white;
-    font-size: calc(1vw + 1em);
+    font-size: calc(1vw + 1.6em);
     font-weight: 900;
     text-transform: uppercase;
     font-family: Montserrat, sans-serif;
