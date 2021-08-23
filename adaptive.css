@@ -124,6 +124,9 @@
         font-size: calc(1vw + 0.3em);
     }
 
+    .header_title {
+        font-size: 18px;
+    }
 }
 
 
@@ -205,6 +208,10 @@
     .endText {
         left: 10%;
         font-size: calc(1vw + 0.15em);
+    }
+
+    .header_title {
+        font-size: 48px;
     }
 
 
