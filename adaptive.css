@@ -62,7 +62,7 @@
 
 
     .borderBox {
-        width: 100%;
+        width: 80%;
     }
 
 }
@@ -164,13 +164,6 @@
         width: 150%;
     }
 
-    .endRect {
-        display: none;
-    }
-
-    .endRectMobile {
-        display: block;
-    }
 
     .endImg {
         max-width: 100%;
@@ -180,6 +173,9 @@
     .endBox {
         flex-direction: column;
         padding: 10px;
+    }
+    .endBox img {
+
     }
 
     .endBlock {
@@ -235,14 +231,11 @@
     .welcomeBox {
         max-width: 100%;
     }
-    .welcomeRectMobile {
-        display: none;
+
+    img_welcome {
+        margin-left: 250px;
     }
 
-    .welcomeRect {
-        display: block;
-        margin-left: -68px;
-    }
 
     .welcomeContainer {
         flex-direction: row;
@@ -280,6 +273,7 @@
     .borderBox {
         width: 70%;
     }
+
 }
 
 
@@ -300,6 +294,10 @@
     .endBlock{
         width: 75%;
     }
+
+    .borderBoxEnd {
+        width: 50%;
+    }
 }
 
 @media screen and (min-width:2560px) {
@@ -316,5 +314,9 @@
         width: 30%;
     }
 
+
+    .borderBoxEnd {
+        width: 30%;
+    }
 }
 

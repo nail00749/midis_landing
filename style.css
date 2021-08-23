@@ -50,7 +50,7 @@ a:visited {
     font-size: calc(1vw + 0.6em);
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 32px;
     letter-spacing: 0em;
     text-align: center;
     color: white;
@@ -76,12 +76,8 @@ a:visited {
 .welcomeContainer {
     display: flex;
     flex-direction: row;
-}
-
-.welcome {
     justify-content: center;
     align-items: center;
-    padding: 0px 0px;
 }
 
 .img_welcome {
@@ -131,7 +127,7 @@ a:visited {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 800;
-    font-size: calc(1vw + 0.4em);
+    font-size: calc(1vw + 0.8em);
     line-height: 29px;
     text-transform: uppercase;
     letter-spacing: 0em;
@@ -232,7 +228,8 @@ a:visited {
 }
 
 .endTextBox {
-
+    display: flex;
+    justify-content: center;
 }
 
 .endBlock {
@@ -242,6 +239,13 @@ a:visited {
 }
 
 .borderBox {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 40px 10px;
+    margin: 10px 25px;
+}
+
+.borderBoxEnd {
     border: 2px solid black;
     border-radius: 20px;
     padding: 40px 10px;
