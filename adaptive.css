@@ -61,6 +61,9 @@
     }
 
 
+    .borderBox {
+        width: 100%;
+    }
 
 }
 
@@ -274,6 +277,9 @@
     }
 
 
+    .borderBox {
+        width: 70%;
+    }
 }
 
 
@@ -287,7 +293,9 @@
 
 
 
-
+    .borderBox {
+        width: 50%;
+    }
 
     .endBlock{
         width: 75%;
@@ -302,6 +310,10 @@
     .endText {
         left: 10%;
         font-size: calc(.7vw + 0.1em);
+    }
+
+    .borderBox {
+        width: 30%;
     }
 
 }
