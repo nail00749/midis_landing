@@ -214,8 +214,6 @@
         font-size: 48px;
     }
 
-
-
 }
 
 @media screen and (min-width:1024px) {
@@ -228,7 +226,7 @@
         flex: 0 0 45%;
     }
     .button_anchor {
-        width: 30%;
+        /*width: 30%;*/
     }
 
     .anchor_container__modify {
